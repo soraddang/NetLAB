@@ -1,0 +1,17 @@
+Router와 Switch의 공통점
+==> 경로DB에 브로드캐스트주소와 멀티캐스트 주소를 등록하지 않음
+
+Router는 B/M 패킷은 drop
+Switch는 B/M 패킷은 flooding 방식으로 전송
+show ip route
+
+1계층 장비 : 허브 / 플러딩
+2계층 장비 : 스위치 / 포워딩, 플러딩
+3계층 장비 : 라우터 / 포워딩 
+
+
+Mac address table ==> 스위치 경로 DB
+
+10mbps ==> ethernet interface
+100mbps ==>fast ethernet interface
+1000mbps ==>gigabit ethernet interface
